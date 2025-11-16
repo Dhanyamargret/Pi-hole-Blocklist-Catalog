@@ -42,7 +42,7 @@ This Pi-hole blocklist catalogue provides a curated, actively maintained collect
 ---
 
 # ⭐ Recommended Baseline Blocklists
-### Choose ONE as your primary daily-use Pi-hole filtering base.
+### Choose at least ONE as your daily-use Pi-hole filtering base.
 
 | Name | URL | Categories | Description | Maintainer | Updated | Rep | Entries | Notes |
 |------|-----|------------|-------------|------------|---------|-----|---------|-------|
