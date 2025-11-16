@@ -178,6 +178,6 @@ Apply only to:
 
 ---
 
-  _This catalogue is fully updated and verified as of 2024–2025 for Pi-hole v6+ compatibility._
+  _This catalogue is fully updated and verified as of November 2025 for Pi-hole v6+ compatibility._
 
   _Over 2,000,000 sites are blocked if using all the lists above_
