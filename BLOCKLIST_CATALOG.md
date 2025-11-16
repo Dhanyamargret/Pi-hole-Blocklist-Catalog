@@ -84,7 +84,6 @@ All lists are:
 | URLHaus Hostfile | [link](https://urlhaus.abuse.ch/downloads/hostfile/) | malware, phishing, suspicious | Actively updated malware distribution domains. | abuse.ch | Multiple times daily | **10/10** | — | One of the best malware feeds. |
 | ThreatFox Hostfile | [link](https://threatfox.abuse.ch/downloads/hostfile/) | malware, phishing, suspicious | C2/payload/malware infra from global IOCs. | abuse.ch | Rolling updates | 9/10 | — | High-signal threat feed. |
 | RPiList Malware | [link](https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware) | malware | Maintained malware list. | RPiList | Active | 8/10 | — | Good supplement. |
-| OSINT.digitalside.it LatestDomains 🆕 NEW | [link](https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt) | malware, suspicious | OSINT-driven daily malware/TI domains. | DigitalSide | Daily | 9/10 | — | Excellent modern TI feed. |
 | FadeMind Risk Hosts 🆕 NEW | [link](https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts) | malware, suspicious | Risky/abusive domains curated via OSINT. | FadeMind | Active | 8/10 | — | More aggressive. |
 | DandelionSprout Anti-Malware 🆕 NEW | [link](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt) | malware | Community anti-malware list. | DandelionSprout | Active | 8/10 | — | Solid optional list. |
 | NoTrack Malware (quidsup) 🆕 NEW | [link](https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt) | malware | Malware list from NoTrack. | quidsup | Mostly active | 7/10 | — | Optional. |
@@ -163,20 +162,20 @@ All lists are:
 
 ## Pi-hole v6+ Group Strategy
 
-- Create **strict/security groups** for:  
-  - URLHaus  
-  - ThreatFox  
-  - Hagezi TIF  
-  - Hagezi Multi Pro  
-  - OISD Big  
-  - OSINT.digitalside  
+Create **strict/security groups** for:
 
-- Apply strict groups only to:  
-  - Admin devices  
-  - High-risk devices  
-  - Lab/test clients  
+- URLHaus  
+- ThreatFox  
+- Hagezi TIF  
+- Hagezi Multi Pro  
+- OISD Big  
+
+Apply strict groups only to:
+
+- Admin devices  
+- High-risk devices  
+- Lab/test clients  
 
 ---
 
 _“Updated” values and entry counts are estimates based on most recent public data as of 2024–2025._
-
