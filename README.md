@@ -1,126 +1,93 @@
-# 🛡️ Pi-hole Blocklist Curator  
-### *"Because your DNS deserves a hero… or at least a snarky Canadian anti-hero."*  
-<sub>— Deadpool, probably</sub>
+# Pi-hole Blocklist Catalog
+
+![GitHub stars](https://img.shields.io/github/stars/PrimePoobah/Pi-hole-Blocklist-Catalog?style=flat-square)
+![Last Updated](https://img.shields.io/github/last-commit/PrimePoobah/Pi-hole-Blocklist-Catalog?label=updated&style=flat-square)
+![License](https://img.shields.io/badge/License-AGPL--3.0-orange?style=flat-square)
+![Pi-hole v6 Compatible](https://img.shields.io/badge/Pi--hole-v6%20Compatible-brightgreen?style=flat-square)
+![Curated Monthly](https://img.shields.io/badge/Curated-Monthly-blue?style=flat-square)
 
 ---
 
-## 👋 Hi There, Internet-Hating Human!
+## 🎯 Why This Catalog Exists (Other Than My Poor Life Choices)
 
-So you decided to block ads, trackers, malware, crypto-bros, shady phishing scams, and that one website your uncle keeps sending you?  
-Well congratulations — you’ve summoned **the Pi-hole Blocklist Curator**, the code equivalent of *me* kicking the internet in the soft bits.
+Welcome, digital freedom fighter.  
+If you're here, you already know the pain: **finding good Pi-hole blocklists** is like digging through a dumpster behind a sketchy taco place.  
+Some are outdated, some are broken, and some aggressively block half the internet—including your bank, your cat's Instagram, and that one site you *claim* you don’t visit.
 
-This repo automatically:
+This repo fixes that mess.  
+Here you’ll find a **continuously curated, Pi-hole v6–compatible catalog** of high-quality, low-drama blocklists that actually work.
 
-- 🕒 Wakes up every **Saturday at 1:33 a.m.**  
-- 🕷️ Crawls the web like a caffeinated Spider-Man  
-- 🔍 Hunts for fresh, delicious blocklists  
-- 🧹 Cleans them, organizes them, pretty-prints them  
-- 📨 Yeets them straight into this repo so you don’t have to do ANYTHING
+Think of it as:
+> “The Blocklist Avengers… except everyone actually shows up on time.”
 
-Lazy? Yes.  
-Smart? Also yes.
-
----
-
-## 🧠 What This Thing Actually Does  
-*(Because your compliance officer might read this)*
-
-This repo contains a curated, continuously updated catalog of **Pi-hole v6+ compatible blocklists**, all sourced from:
-
-- GitHub security nerds  
-- Malware researchers  
-- Privacy weirdos  
-- DNS wizards  
-- And whatever the heck RPiList is drinking  
-
-Every list is scanned for:
-
-- HTTPS ✔️  
-- Maintained within last 12–18 months ✔️  
-- Pi-hole format ✔️  
-- Won’t break the whole internet… probably ✔️
-
-If a list sucks, gets abandoned, or starts blocking Netflix?  
-**Snikt ✂️ — it’s gone.**
+Goodbye, janky lists.  
+Hello, clean, fast, privacy-respecting DNS filtering.
 
 ---
 
-## 📦 What's Inside?
+## 📚 The Blocklist Catalog (The Good Stuff)
 
-### `BLOCKLIST_CATALOG.md`  
-Your shiny, structured, way-too-organized Markdown table of:
+Looking for the actual list? Boom:
 
-- Names  
-- URLs  
-- Categories  
-- Maintainers  
-- Last updated timestamps  
-- Reputation scores  
-- Approximate domain counts  
-- Notes  
-- And the tears of a thousand ad networks  
+➡️ **[BLOCKLIST_CATALOG.md](./BLOCKLIST_CATALOG.md)**
 
-It’s basically a Pokédex… but for destroying telemetry.
+Inside you’ll find:
 
----
+- ✔ Verified Pi-hole v6 compatibility  
+- ✔ Proper categories (ads, trackers, telemetry, malware, and other internet gremlins)  
+- ✔ Descriptions that don’t suck  
+- ✔ Real, working URLs  
+- ✔ Notes on reliability and false-positive shenanigans  
 
-## 🤖 How the Automation Works  
-*(AKA “How Deadpool stole your GitHub token and did crime with it”)*
-
-Every Saturday at exactly **1:33 AM America/Toronto time**, an automation does the following:
-
-1. Searches the internet for blocklists  
-2. Judges them harshly  
-3. Gives them a score because we’re petty  
-4. Dumps everything into a pretty table  
-5. Commits it right back into this repo
-
-Boom.  
-DNS hygiene: achieved.
+All thriller, no filler.
 
 ---
 
-## 🧪 Use At Your Own Risk  
-Some lists are:
+## 🤖 How This Catalog Stays Fresh
 
-- Aggressive  
-- VERY aggressive  
-- “I will break your smart fridge” aggressive  
+Every month like clockwork (or like Deadpool showing up uninvited), an automated process:
 
-You can thank the internet for that.
+- Hunts down new high-quality blocklists  
+- Deletes anything dead, broken, or possessed  
+- Checks Pi-hole v6 compatibility  
+- Verifies list health  
+- Updates the whole catalog automatically  
 
-Start with safe lists.  
-Add spicy lists only if you enjoy chaos.
-
-Or if you're Deadpool.  
-In which case, crank that dial.
+You get a constantly refreshed, battle-tested selection—no manual dumpster diving required.
 
 ---
 
-## 🦸 Support  
-If something breaks:
+## 🙋 Contributing (Yes, You Too Can Be a Hero)
 
-- Try turning it off and on again  
-- Whitelist what broke  
-- Sacrifice a router  
-- Blame Canada  
-- Open an issue
+Found a blocklist that *doesn't* nuke half the internet? Amazing.
 
-In that order.
+Submit it via Issue or PR with:
 
----
+- Name  
+- URL  
+- Category  
+- Description  
+- Any notes on aggressiveness or potential “my Netflix doesn’t work anymore” side effects  
 
-## 🍁 Made with Love in Canada  
-Like maple syrup.  
-But for your DNS.
+Please avoid contributing any list that behaves like a toddler with scissors.
 
 ---
 
-## 🧨 Final Thoughts  
-This repo is your DNS exoskeleton suit.  
-Your cyber-moat.  
-Your spam-killing, malware-punching, telemetry-disintegrating buddy.
+## 📜 License (The Boring but Important Stuff)
 
-Now go forth and block things like the unhinged privacy warrior you are.
+This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.  
+Read the [LICENSE](./LICENSE) if you’re into that kind of thing.
 
-*— Deadpool (the version that understands YAML, cron, GitHub Actions, and malware feeds)*
+---
+
+## ⭐ Support This Madness
+
+If you found this helpful—or mildly entertaining—drop a ⭐ on the repo.
+
+It helps more Pi-hole users:
+- Improve privacy  
+- Block the bad guys  
+- Break fewer websites  
+- And appreciate that sarcasm belongs in tech docs
+
+Thanks for stopping by, you magnificent bandwidth-saving champion.
