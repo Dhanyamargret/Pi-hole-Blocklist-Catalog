@@ -1,3 +1,5 @@
+<!-- README.md -->
+
 # Pi-hole Blocklist Catalog
 
 ![GitHub stars](https://img.shields.io/github/stars/PrimePoobah/Pi-hole-Blocklist-Catalog?style=flat-square)
@@ -10,18 +12,34 @@
 
 ## 🎯 Why This Catalog Exists (Other Than My Poor Life Choices)
 
-Welcome, digital freedom fighter.
+Welcome, digital freedom fighter.  
 If you're here, you already know the pain: **finding good Pi-hole blocklists** is like digging through a dumpster behind a sketchy taco place.  
-Some are outdated, some are broken, and some aggressively block half the internet—including your bank, your cat's Instagram, and that one site you *claim* you don’t visit.
+Some are outdated, some are broken, and some aggressively block your bank, your kid’s school portal, your cat's Instagram, and that one site you *claim* you don’t visit.
 
-This repo fixes that mess.  
-Here you’ll find a **continuously curated, Pi-hole v6–compatible catalog** of high-quality, low-drama blocklists that actually work.
+This repository exists to fix that mess.
 
-Think of it as:
-> “The Blocklist Avengers… except everyone actually shows up on time.”
+Instead of blindly throwing 10+ random lists into Pi-hole and praying, this catalog focuses on:
 
-Goodbye, janky lists.  
-Hello, clean, fast, privacy-respecting DNS filtering.
+- ✅ **High-quality, actively maintained** blocklists  
+- ✅ **Clear categories** (ads, telemetry, malware, phishing, cryptomining, tracking, etc.)  
+- ✅ **Realistic recommendations** for home, lab, and enterprise  
+- ✅ **Reducing breakage** while still punching ads and malware in the face  
+
+---
+
+## 🧱 What This Catalog *Is* (And What It’s Not)
+
+This catalog **is**:
+
+- A curated list of trustworthy blocklists for **Pi-hole v6+** and similar DNS-based tools  
+- A way to pick **sane defaults** without spending your weekend on forum archaeology  
+- A living reference you can drop into docs, homelab wikis, and “please-fix-our-network” tickets  
+
+This catalog is **not**:
+
+- A “block the entire internet” collection  
+- A magic bullet that guarantees *zero* breakage  
+- A replacement for common sense (“maybe don’t deploy the nuclear malware list to Grandma’s iPad group”)  
 
 ---
 
@@ -33,50 +51,79 @@ Looking for the actual list? Boom:
 
 Inside you’ll find:
 
-- ✔ Verified Pi-hole v6 compatibility  
+- ✔ Validated for Pi-hole v6 compatibility, reachability, and recent maintenance signals  
 - ✔ Proper categories (ads, trackers, telemetry, malware, and other internet gremlins)  
-- ✔ Descriptions that don’t suck  
-- ✔ Real, working URLs  
-- ✔ Notes on reliability and false-positive shenanigans  
+- ✔ Descriptions, reputation scores, and notes on false positives  
+- ✔ Suggested use-cases (home, lab, SOC, admin devices, etc.)
 
-All thriller, no filler.
+If you just want a quick starting point for a **home Pi-hole**:
+
+1. Pick **ONE** baseline:
+   - `StevenBlack Unified Hosts` **or**  
+   - `Hagezi Multi Normal` **or**  
+   - `OISD Small` **or**  
+   - `1Hosts (Lite)`
+
+2. Add a **malware/phishing layer**:
+   - `URLHaus Hostfile`  
+   - `ThreatFox Hostfile`  
+   - Optionally one of the more aggressive lists if you like living dangerously
+
+3. If you’re on Windows-heavy networks and enjoy telemetry-free vibes:
+   - Consider the **telemetry lists** (in their own section) **via Pi-hole groups only**.
 
 ---
 
-## 🤖 How This Catalog Stays Fresh
+## 🧪 Compatibility
 
-Every month like clockwork (or like Deadpool showing up uninvited), an automated process:
+These lists are designed for:
 
-- Hunts down new high-quality blocklists  
-- Deletes anything dead, broken, or possessed  
-- Checks Pi-hole v6 compatibility  
-- Verifies list health  
-- Updates the whole catalog automatically  
+- **Pi-hole v6+** (hosts & domain lists)  
+- DNS-based firewalls & filters:
+  - Unbound  
+  - AdGuard Home  
+  - pfBlockerNG  
+  - Router-level DNS filtering (where compatible)
 
-You get a constantly refreshed, battle-tested selection—no manual dumpster diving required.
+Each entry in the catalog includes:
 
----
-
-## 🙋 Contributing (Yes, You Too Can Be a Hero)
-
-Found a blocklist that *doesn't* nuke half the internet? Amazing.
-
-Submit it via Issue or PR with:
-
-- Name  
 - URL  
 - Category  
-- Description  
-- Any notes on aggressiveness or potential “my Netflix doesn’t work anymore” side effects  
-
-Please avoid contributing any list that behaves like a toddler with scissors.
+- Maintainer  
+- Approximate reputation score  
+- Notes about aggressiveness, best use-cases, and gotchas  
 
 ---
 
-## 📜 License (The Boring but Important Stuff)
+## ⚠️ Use With Care (a.k.a. Don’t Blame Me For Your Broken Netflix)
 
-This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.  
-Read the [LICENSE](./LICENSE) if you’re into that kind of thing.
+Some lists are **very** aggressive. That’s great for:
+
+- Admin workstations  
+- Security labs  
+- SOC environments  
+
+It’s… less great for:
+
+- Family iPads  
+- Smart TVs that already barely function  
+- That one teacher who definitely will email if anything breaks
+
+Use **Pi-hole groups**:
+
+- Keep a sane baseline for everyone  
+- Assign aggressive malware/telemetry lists only to the devices that need them  
+- Whitelist sparingly and intentionally  
+
+---
+
+## 🧾 License
+
+This repo is licensed under:
+
+> **GNU Affero General Public License v3.0 (AGPL-3.0)**
+
+Because if we’re going to share the pain and joy of blocklists, we might as well do it the open-source way.
 
 ---
 
@@ -85,9 +132,10 @@ Read the [LICENSE](./LICENSE) if you’re into that kind of thing.
 If you found this helpful—or mildly entertaining—drop a ⭐ on the repo.
 
 It helps more Pi-hole users:
+
 - Improve privacy  
 - Block the bad guys  
 - Break fewer websites  
-- And appreciate that sarcasm belongs in tech docs
+- And appreciate that sarcasm belongs in tech docs  
 
 Thanks for stopping by, you magnificent bandwidth-saving champion.
